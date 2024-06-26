@@ -19,9 +19,21 @@ Ce projet est un forum en ligne spatialisé en 2D sur le thème de Naruto, déve
 - **Interaction 2D** : Les utilisateurs peuvent naviguer et interagir dans un environnement visuel en 2D, rendant l'expérience plus immersive.
 - **Gestion de Profils** : Les utilisateurs peuvent personnaliser leur profil et voir les profils des autres membres.
 - **Modération** : Les administrateurs peuvent gérer les discussions et les utilisateurs pour maintenir un environnement sûr et convivial.
+- **Messagerie Privée** : Les utilisateurs peuvent envoyer des messages privés à d'autres membres du forum.
+- **Galerie Photo** : Les utilisateurs peuvent télécharger et regarder des photos dans une galerie dédiée au thème Naruto.
 
 ## Installation
 
 1. **Cloner le dépôt** :
    ```sh
    git clone https://github.com/AbdenourN/-SAE-Forum-Spatialiser-2D.git
+
+2. **Importer la base de données** :
+   - Assurez-vous d'avoir MySQL installé
+   - Trouvez le fichier export.sql dans le dossier "/sql"
+   - Importez ce fichier SQL dans votre  MySQL pour créer la base de données . Utilisez la commande suivante en ligne de commande :
+   ```sh
+   mysql -u votre_utilisateur -p votre_base_de_donnees < chemin_vers_export.sql
+Remplacez votre_utilisateur, votre_base_de_donnees et chemin_vers_export.sql par vos informations spécifiques.
+
+
