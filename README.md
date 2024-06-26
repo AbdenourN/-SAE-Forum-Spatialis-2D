@@ -29,10 +29,10 @@ Ce projet est un forum en ligne spatialisé en 2D sur le thème de Naruto, déve
    git clone https://github.com/AbdenourN/-SAE-Forum-Spatialiser-2D.git
 
 2. **Importer la base de données** :
-   - Assurez-vous d'avoir MySQL installé
-   - Trouvez le fichier export.sql dans le dossier "/sql"
-   - Importez ce fichier SQL dans votre  MySQL pour créer la base de données .
-   Utilisez la commande suivante en ligne de commande :
+   - Assurez-vous d'avoir MySQL installé.
+   - Trouvez le fichier export.sql dans le dossier "/sql".
+   - Importez ce fichier SQL dans votre  MySQL pour créer la base de données.
+Utilisez la commande suivante en ligne de commande :
    ```sh
    mysql -u votre_utilisateur -p votre_base_de_donnees < chemin_vers_export.sql
  remplacez votre_utilisateur, votre_base_de_donnees et chemin_vers_export.sql par vos informations.
