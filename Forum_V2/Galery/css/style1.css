@@ -1,0 +1,177 @@
+body {
+    font-family: sans-serif;
+    background-image: url('https://static.vecteezy.com/ti/vecteur-libre/p1/4562055-abstrait-galerie-arriere-plan-avec-lampe-d-eclairage-et-espace-vide-pour-votre-texte-ou-objet-illustrationle-gratuit-vectoriel.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+nav {
+    background-color: #333; /* Couleur plus douce */
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 0;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 25px; /* Espacement plus large */
+}
+
+.nav-links a {
+    color: #f0f0f0;
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    padding: 8px 12px; /* Padding plus généreux */
+    border-radius: 5px;
+    font-size: 0.95rem; /* Taille de la police légèrement plus grande */
+}
+
+.nav-links a:hover {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.2); /* Fond subtil au survol */
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-right: -50%;
+}
+
+.search-container input[type="text"] {
+    padding: 6px 12px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+.search-container button {
+    padding: 6px 12px;
+    background-color: #444; /* Légère variation de couleur pour le bouton */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.search-container button:hover {
+    background-color: #555;
+    transform: scale(1.05); /* Effet de zoom subtil */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    .nav-links li {
+        margin: 10px 0; /* Espacement vertical dans le mode responsive */
+    }
+
+    .search-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .search-container input[type="text"] {
+        margin-bottom: 10px;
+    }
+}
+
+
+h1 {
+    text-align: center;
+    color: forestgreen;
+    margin: 30px 0 50px;
+}
+
+.gallery {
+    margin: 10px;
+    padding: 10px;
+    top: 40px;
+}
+
+.gallery img {
+    width: 230px;
+    padding: 5px;
+    filter: grayscale(100%);
+    transition: 1s;
+    margin-left: 35px; /* Ajout de la marge à gauche */
+}
+
+.gallery img:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+
+
+footer {
+    background-color: #262626; /* Une couleur de fond plus sombre pour un look élégant */
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px; /* Plus d'espace pour un look aéré */
+    margin-top: auto;
+    font-family: 'Arial', sans-serif;
+    border-top: 4px solid #ff4500; /* Une bordure pour un contraste saisissant */
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 16px; /* Taille de police accrue pour une meilleure lisibilité */
+    line-height: 1.5;
+    letter-spacing: 0.5px; /* Espacement des lettres pour un aspect raffiné */
+}
+
+footer a {
+    color: #ff4500; /* Couleur pour les liens qui se démarquent */
+    text-decoration: none;
+    padding: 5px;
+    transition: all 0.3s ease;
+}
+
+footer a:hover {
+    color: #fff;
+    background-color: #ff4500; /* Effet d'inversion des couleurs au survol */
+    border-radius: 3px;
+}
+
+/* Style supplémentaire pour les médias sociaux ou les liens d'icônes si nécessaire */
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.social-links a:hover {
+    transform: scale(1.1); /* Effet de zoom pour les icônes des médias sociaux */
+}
+
+.logo img {
+    width: 20%;
+    height: 80%;;
+    margin: 0 auto;
+    position:relative; 
+    left: 37%;
+  }
+
