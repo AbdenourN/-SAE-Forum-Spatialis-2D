@@ -24,4 +24,4 @@ Ce projet est un forum en ligne spatialisé en 2D sur le thème de Naruto, déve
 
 1. **Cloner le dépôt** :
    ```sh
-   git clone 
+   git clone https://github.com/AbdenourN/-SAE-Forum-Spatialiser-2D.git
