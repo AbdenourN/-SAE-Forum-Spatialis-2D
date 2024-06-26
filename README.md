@@ -31,9 +31,10 @@ Ce projet est un forum en ligne spatialisé en 2D sur le thème de Naruto, déve
 2. **Importer la base de données** :
    - Assurez-vous d'avoir MySQL installé
    - Trouvez le fichier export.sql dans le dossier "/sql"
-   - Importez ce fichier SQL dans votre  MySQL pour créer la base de données . Utilisez la commande suivante en ligne de commande :
+   - Importez ce fichier SQL dans votre  MySQL pour créer la base de données .
+   Utilisez la commande suivante en ligne de commande :
    ```sh
    mysql -u votre_utilisateur -p votre_base_de_donnees < chemin_vers_export.sql
-Remplacez votre_utilisateur, votre_base_de_donnees et chemin_vers_export.sql par vos informations spécifiques.
+ emplacez votre_utilisateur, votre_base_de_donnees et chemin_vers_export.sql par vos informations.
 
 
