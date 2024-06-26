@@ -37,4 +37,9 @@ Utilisez la commande suivante en ligne de commande :
    mysql -u votre_utilisateur -p votre_base_de_donnees < chemin_vers_export.sql
  remplacez votre_utilisateur, votre_base_de_donnees et chemin_vers_export.sql par vos informations.
 
+3. **Accéder au site** :
+   - uvrez votre navigateur web et accédez à l'URL locale où vous avez configuré le projet. Par exemple :
+  ```sh
+   http://localhost/Forum_V2/
+
 
