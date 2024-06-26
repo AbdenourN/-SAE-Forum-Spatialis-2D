@@ -35,6 +35,6 @@ Ce projet est un forum en ligne spatialisé en 2D sur le thème de Naruto, déve
    Utilisez la commande suivante en ligne de commande :
    ```sh
    mysql -u votre_utilisateur -p votre_base_de_donnees < chemin_vers_export.sql
- emplacez votre_utilisateur, votre_base_de_donnees et chemin_vers_export.sql par vos informations.
+ remplacez votre_utilisateur, votre_base_de_donnees et chemin_vers_export.sql par vos informations.
 
 
